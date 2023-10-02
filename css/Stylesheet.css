@@ -27,3 +27,7 @@ p{
   margin: 0%;
   width: calc(var(--width)/2);
 }
+
+.twoPxRoundConrs{
+  border-radius: 2px;
+}
