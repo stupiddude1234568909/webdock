@@ -1,9 +1,10 @@
 :root{
-  --mBbackgroundColor: rgb(236, 81, 81);
+  --myBbackgroundColor: rgb(255, 255, 255); 
+  --ourFont: font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-  background-color: var(--mBbackgroundColor);
+  background-color: var(--myBbackgroundColor);
 
 }
 
