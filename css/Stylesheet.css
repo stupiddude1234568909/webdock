@@ -1,5 +1,9 @@
+:root{
+  --mBbackgroundColor: rgb(236, 81, 81);
+}
+
 body {
-  background-color: rgb(79, 79, 203);
+  background-color: var(--mBbackgroundColor);
 
 }
 
@@ -9,4 +13,8 @@ body {
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+}
+
+#wrapper{
+    margin-left: auto;
 }
