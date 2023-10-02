@@ -1,11 +1,15 @@
 :root{
-  --myBbackgroundColor: rgb(255, 255, 255); 
-  --ourFont: font-family: 'Courier New', Courier, monospace;
+  --myBbackgroundColor: rgb(236, 236, 236); 
+  --ourFont: font-family: 'Times New Roman', Times, serif;;
 }
 
 body {
   background-color: var(--myBbackgroundColor);
 
+}
+
+p{
+  font-family: var(--ourFont);
 }
 
 .test{
@@ -16,5 +20,6 @@ body {
 }
 
 #wrapper{
-    margin-left: 100px;
+  width: 1000;
+  margin: auto;  
 }
