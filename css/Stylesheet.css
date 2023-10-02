@@ -1,6 +1,8 @@
 :root{
   --myBbackgroundColor: rgb(236, 236, 236); 
   --ourFont: font-family: 'Times New Roman', Times, serif;;
+  --width: 1000px;
+  --halfScale: 2
 }
 
 body {
@@ -20,6 +22,10 @@ p{
 }
 
 #wrapper{
-  width: 1000;
+  width: var(--width);
   margin: auto;  
+}
+
+.fullSizePic{
+  width: calc(var(--width));
 }
