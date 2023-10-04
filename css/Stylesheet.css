@@ -1,19 +1,27 @@
 :root{
-  --myBbackgroundColor: rgb(236, 236, 236); 
+  --siteBackgroundColor: rgb(255, 255, 255); 
+  --wrapperBackgroundColor: rgb(255, 255, 255);
   --ourFont: font-family: 'Times New Roman', Times, serif;;
   --width: 1000px;
   --halfScale: 2
 }
 
 body {
-  background-color: var(--myBbackgroundColor);
+  background-color: var(--siteBackgroundColor);
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p{
+  margin-left: 10px;
   font-family: var(--ourFont);
+  
 }
 
 #wrapper{
+  background-color: var(--wrapperBackgroundColor);
   width: var(--width);
   margin: auto;  
 }
