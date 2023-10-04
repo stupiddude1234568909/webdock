@@ -8,6 +8,7 @@
 
 body {
   background-color: var(--siteBackgroundColor);
+  
 }
 
 h1 {
@@ -26,15 +27,21 @@ p{
   margin: auto;  
 }
 
+.halfSizeText{
+  width: inherit;
+  
+}
+
 .fullSizePic{
   width: calc(var(--width));
 }
 
 .halfSizePic{
   margin: 0%;
-  width: calc(var(--width)/2);
+  width: calc(inherit/2);
 }
 
 .twoPxRoundConrs{
   border-radius: 2px;
 }
+
