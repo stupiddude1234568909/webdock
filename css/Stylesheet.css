@@ -12,8 +12,8 @@ body {
 
 h1, h2{
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 0px;
+  padding-top: 65px;
+  padding-bottom: 5px;
   font-family:'Times New Roman', Times, serif;
 }
 h3{
@@ -27,6 +27,13 @@ p{
 img {
   max-width: 100%;
   max-height:100%;
+
+  
+
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-top: 2px;
 }
 
 video{
@@ -46,13 +53,18 @@ video{
   padding-left: 20px;
   padding-right: 20px;
   line-height: 1,4;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  font-style:italic;
+  color: rgb(17, 17, 17);
 }
 
 .fakta-tekst{
+  line-height: 1,8;
   padding-left: 30px;
   padding-right: 30px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  line-height: 1,8;
+  color: rgb(20, 20, 20);
 }
 
 
