@@ -61,3 +61,6 @@ var sumToN = function(list, N){
 }
 
 
+window.onload = function(){
+    baggrund.style.backgroundImage = "URL('billeder/Billeder til baggrund/Old Dresden.png')"
+}
