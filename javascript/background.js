@@ -8,10 +8,10 @@ var backgroundImages = ["URL('billeder/Billeder til baggrund/Old Dresden.png')",
                         "URL('billeder/zwinger/20230920_145651.jpg')", //karl johan billede her 
                         "URL('billeder/zwinger/ZwingerMain.jpg')", //altstadt billede her 
                         "URL('')", // Residenschloss
-                        "URL('billeder/zwinger/IMG20230920150459.jpg')" //zwinger
+                        "URL('billeder/zwinger/IMG20230920150447.jpg')" //zwinger
 ]
 
-var bagrund_sachsen = document.getElementById("bagrund-sachsen");
+var baggrund = document.getElementById("bagrund-sachsen");
 //referencer til de forskellige divs
 var sachsen = document.getElementById("Sachsen");
 var dredsen = document.getElementById("Dredsen");
@@ -38,10 +38,11 @@ window.onscroll = function(){
     }
 
     // vælger billede og wwidth
-    bagrund_sachsen.style.backgroundImage = backgroundImages[current_div];
-    bagrund_sachsen.style.width = '100%';
+    baggrund.style.backgroundImage = backgroundImages[current_div];
+    baggrund.style.width = '100%';
+    baggrund.style.backgroundSize = 'cover';
     // lille fade 
-    bagrund_sachsen.style.opacity = 1 - Math.pow((scrollY - sumToN(heights, current_div - 1)) / heights[current_div],4)+0.07;
+    baggrund.style.opacity = 1 - Math.pow((scrollY - sumToN(heights, current_div - 1)) / heights[current_div],4)+0.07;
     console.log(Math.pow((scrollY - sumToN(heights, current_div - 1)) / heights[current_div],6));
 
 
