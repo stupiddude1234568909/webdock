@@ -1,14 +1,15 @@
 var current_div = 0;
 
-var backgroundImages = ["URL('billeder/Billeder til baggrund/Old Dresden.png')",  //sachen billeder her 
-                        "URL('billeder/zwinger/IMG20230920122615.jpg')", //dredesen billede her
-                        "URL('billeder/De 10 bydele generelt/10 bydele.png')", //10 bylde billede relative path
-                        "URL('billeder/zwinger/neustadt.jpg')",// neustadt billede path
-                        "URL('billeder/Golden rider og Karl Johann 1/IMG_2735.png')", // golden reither 
-                        "URL('billeder/zwinger/20230920_145651.jpg')", //karl johan billede her 
-                        "URL('billeder/zwinger/ZwingerMain.jpg')", //altstadt billede her 
-                        "URL('billeder/Residenschloss/residenschloss.png')", // Residenschloss
-                        "URL('billeder/zwinger/IMG20230920150447.jpg')" //zwinger
+var backgroundImages = [
+    "URL('billeder/Billeder til baggrund/Old Dresden.png')",  //sachen billeder her 
+    "URL('billeder/zwinger/IMG20230920122615.jpg')", //dredesen billede her
+    "URL('billeder/De 10 bydele generelt/10 bydele.png')", //10 bylde billede relative path
+    "URL('billeder/zwinger/neustadt.jpg')",// neustadt billede path
+    "URL('billeder/Golden rider og Karl Johann 1/IMG_2735.png')", // golden reither 
+    "URL('billeder/zwinger/20230920_145651.jpg')", //karl johan billede her 
+    "URL('billeder/zwinger/ZwingerMain.jpg')", //altstadt billede her 
+    "URL('billeder/Residenschloss/residenschloss.png')", // Residenschloss
+    "URL('billeder/zwinger/IMG20230920150447.jpg')" //zwinger
 ]
 
 
