@@ -11,6 +11,7 @@ var backgroundImages = ["URL('billeder/Billeder til baggrund/Old Dresden.png')",
                         "URL('billeder/zwinger/IMG20230920150447.jpg')" //zwinger
 ]
 
+
 var baggrund = document.getElementById("bagrund-sachsen");
 //referencer til de forskellige divs
 var sachsen = document.getElementById("Sachsen");
